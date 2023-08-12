@@ -339,7 +339,7 @@ export const singleProduct: Product = {
   options: [
     {
       title: "Small",
-      additionalPrice: 0,
+      additionalPrice: 0, 
     },
     {
       title: "Medium",
@@ -355,7 +355,7 @@ export const singleProduct: Product = {
 type Menu = {
   id: number;
   slug: string;
-  title: string;
+  title: string; 
   desc?: string;
   img?: string;
   color: string;
